@@ -1,0 +1,18 @@
+{
+  "name": "nagad-calculator-showcase",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Public showcase sample for the Nagad Cash Out Charge Calculator project.",
+  "scripts": {
+    "start": "echo 'Open demo/index.html in your browser.'"
+  },
+  "keywords": [
+    "nagad",
+    "calculator",
+    "cash-out-charge",
+    "showcase",
+    "bangladesh"
+  ],
+  "author": "Project owner",
+  "license": "UNLICENSED"
+}

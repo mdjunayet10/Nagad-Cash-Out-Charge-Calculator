@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nagad Cash Out Charge Calculator - Showcase</title>
+  <meta name="description" content="A limited public showcase sample for the Nagad Cash Out Charge Calculator project.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <div class="brand">
+        <img class="logo" src="../assets/showcase-icon.svg" alt="Showcase icon">
+        <span>Nagad Calculator Showcase</span>
+      </div>
+      <span class="badge">Public sample only</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="container hero">
+      <div>
+        <span class="badge">Portfolio Project</span>
+        <h1>Nagad Cash Out Charge Calculator</h1>
+        <p>
+          This is a limited showcase version of a private production calculator website. The full source code, production UI, SEO content, and deployment setup are intentionally not included.
+        </p>
+        <div class="notice">
+          Disclaimer: This project is independent and not affiliated with Nagad. Always verify final charges from official Nagad sources.
+        </div>
+      </div>
+
+      <aside class="card">
+        <h2>Demo calculator</h2>
+        <p>This small demo shows the concept only. It is not the full production app.</p>
+
+        <div class="field">
+          <label for="amount">Amount</label>
+          <input id="amount" inputmode="decimal" type="number" min="0" value="1000" placeholder="Enter amount">
+          <div class="quick-buttons" aria-label="Quick amounts">
+            <button type="button" data-amount="500">500</button>
+            <button type="button" data-amount="1000">1,000</button>
+            <button type="button" data-amount="5000">5,000</button>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="method">Method</label>
+          <select id="method">
+            <option value="12.99">Regular App</option>
+            <option value="15">Islamic App</option>
+            <option value="15">USSD</option>
+          </select>
+        </div>
+
+        <div class="result" aria-live="polite">
+          <div class="result-row">
+            <span>Estimated charge</span>
+            <strong id="charge">Tk 0.00</strong>
+          </div>
+          <div class="result-row">
+            <span>Total needed</span>
+            <strong id="total">Tk 0.00</strong>
+          </div>
+          <div class="result-row">
+            <span>Rate used</span>
+            <strong id="rate">Tk 0.00 per 1,000</strong>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="container section">
+      <h2>Showcase highlights</h2>
+      <div class="grid">
+        <article class="info-card">
+          <h3>Fast static website</h3>
+          <p>The production project is built as a lightweight static website for speed and reliability.</p>
+        </article>
+        <article class="info-card">
+          <h3>Privacy first</h3>
+          <p>The calculator does not require Nagad account numbers, PINs, OTPs, or passwords.</p>
+        </article>
+        <article class="info-card">
+          <h3>SEO focused</h3>
+          <p>The private version includes original SEO sections, FAQs, and policy pages for a complete user experience.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Public showcase only. Full production source code is private.</p>
+    </div>
+  </footer>
+
+  <script src="demo.js"></script>
+</body>
+</html>
